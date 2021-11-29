@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/img/teste2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#borda{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.corpo{
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: arial, sans-serif;
+    font-size: 1rem;
+    color:#000000;
+}
+
+input[type="number"]{
+    width:200px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 1em;
+}
+
+input[type="submit"]{
+    width:70px;
+    background-color: #2ae633ee;
+    border-radius: 10px;
+}
